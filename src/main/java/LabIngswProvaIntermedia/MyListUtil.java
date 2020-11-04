@@ -12,23 +12,23 @@ public class MyListUtil {
 			return "La lista è vuota";
 		}
 		
-		int cont =0;
 		if(scelta == 0 ) {
 			Collections.sort(l);
+			for(Integer i: l) {
+				System.out.println(i);
+			}
 			
+			return "La lista è stata ordinata in modo crescente ";
 		}
 		else if(scelta == 1) {
 			Collections.sort(l,Collections.reverseOrder());
 			
 		}
-			
-		
-			
-			for(Integer i: l) {
-				System.out.println(i);
-			}
-		
-		return "La lista è stata ordinata in modo crescente ";
+		for(Integer i: l) {
+			System.out.println(i);
+		}	
+		return "La lista è stata ordinata in modo decrescente ";
+				
 	}
 	
 
