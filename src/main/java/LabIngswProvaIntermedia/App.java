@@ -28,7 +28,7 @@ public class App
        System.out.println("Scegli come vuoi ordinare la lista: 0 per ordinarla in modo crescente 1 per ordinarla in modo decrescente");
        int scelta = in.nextInt();
        ml.scegliLista(l, scelta);
-       System.out.println("Today is: " + dt.toString("yyyy-MM-dd") +". "+ ml.scegliLista(l, scelta));
+       System.out.println("Today is: " + dt.toString("yyyy-MM-dd") );
        
     }
 }
